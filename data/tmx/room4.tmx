@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="42">
+ <tileset firstgid="1" source="../tsx/TilesetInteriorFloor.tsx"/>
+ <tileset firstgid="375" source="../tsx/Objects.tsx"/>
+ <layer id="1" name="Ground" width="20" height="10">
+  <data encoding="csv">
+265,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,267,
+287,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,289,
+287,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,289,
+287,288,288,265,266,266,266,266,266,266,266,266,266,266,266,266,267,288,288,289,
+287,288,288,287,288,288,288,288,288,288,288,288,288,288,288,288,289,288,288,289,
+287,288,288,287,288,288,288,288,288,288,288,288,288,288,288,288,289,288,288,289,
+287,288,288,309,310,310,310,310,310,310,310,310,310,310,310,310,311,288,288,289,
+287,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,289,
+287,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,289,
+309,310,310,310,310,310,310,310,310,310,310,310,310,310,310,310,310,310,310,311
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="house" type="Building" gid="376" x="796.512" y="381.234" width="256" height="192"/>
+  <object id="2" name="house" type="Building" gid="376" x="511.279" y="381.234" width="256" height="192"/>
+  <object id="3" name="house" type="Building" gid="376" x="229.374" y="379.014" width="256" height="192"/>
+  <object id="4" name="rock" type="Vegetation" gid="382" x="1003.39" y="397.144" width="63" height="64"/>
+  <object id="5" name="rock" type="Vegetation" gid="382" x="213.169" y="399.363" width="63" height="64"/>
+  <object id="6" name="rock" type="Vegetation" gid="382" x="441.8" y="400.473" width="63" height="64"/>
+  <object id="7" name="rock" type="Vegetation" gid="382" x="469.546" y="417.121" width="63" height="64"/>
+  <object id="8" name="rock" type="Vegetation" gid="382" x="683.749" y="412.682" width="63" height="64"/>
+  <object id="9" name="rock" type="Vegetation" gid="382" x="702.617" y="442.648" width="63" height="64"/>
+  <object id="10" name="rock" type="Vegetation" gid="382" x="795.845" y="419.341" width="63" height="64"/>
+  <object id="11" name="rock" type="Vegetation" gid="382" x="775.867" y="449.307" width="63" height="64"/>
+  <object id="12" name="rock" type="Vegetation" gid="382" x="739.242" y="474.834" width="63" height="64"/>
+  <object id="13" name="grass" type="Vegetation" gid="393" x="449.679" y="436.428" width="64" height="56"/>
+  <object id="14" name="grass" type="Vegetation" gid="393" x="769.318" y="484.152" width="64" height="56"/>
+  <object id="15" name="tea" type="Basket" gid="387" x="824.028" y="83.0513" width="64" height="64"/>
+  <object id="17" name="fish" type="Basket" gid="386" x="142.028" y="305.677" width="64" height="64"/>
+  <object id="18" name="tea" type="Basket" gid="387" x="143.638" y="343.962" width="64" height="64"/>
+  <object id="19" name="bread" type="Basket" gid="389" x="1049" y="227.335" width="64" height="64"/>
+  <object id="20" name="bread" type="Basket" gid="389" x="1051.22" y="272.839" width="64" height="64"/>
+  <object id="21" name="apple" type="Basket" gid="377" x="1054.55" y="315.014" width="64" height="64"/>
+  <object id="22" name="apple" type="Basket" gid="377" x="1070.09" y="351.639" width="64" height="64"/>
+  <object id="23" name="apple" type="Basket" gid="377" x="1073.42" y="401.583" width="64" height="64"/>
+  <object id="26" name="house" type="Building" gid="376" x="0.743605" y="145.944" width="256" height="192"/>
+  <object id="29" name="smith_table" type="Decor" gid="378" x="142.665" y="575.403" width="112" height="92"/>
+  <object id="30" name="smith_table" type="Decor" gid="378" x="692.045" y="609.808" width="112" height="92"/>
+  <object id="32" name="chest" type="Decor" gid="380" x="759.231" y="80.282" width="56" height="64"/>
+  <object id="33" name="up" type="Door" x="576" y="0" width="128" height="16"/>
+  <object id="34" name="left" type="Door" x="0" y="256" width="16" height="128"/>
+  <object id="35" name="spirit" type="Spawner" x="1022.67" y="510.667">
+   <point/>
+  </object>
+  <object id="36" name="spirit" type="Spawner" x="1086.67" y="58.6667">
+   <point/>
+  </object>
+  <object id="37" name="grass" type="Vegetation" gid="393" x="1190.67" y="625.333" width="64" height="56"/>
+  <object id="38" name="grass" type="Vegetation" gid="393" x="1194.67" y="565.333" width="64" height="56"/>
+  <object id="39" name="grass" type="Vegetation" gid="393" x="1196" y="505.333" width="64" height="56"/>
+  <object id="40" name="noodles" type="Basket" gid="394" x="142.5" y="386" width="64" height="64"/>
+  <object id="41" name="right" type="Door" x="1264" y="256" width="16" height="128"/>
+ </objectgroup>
+</map>

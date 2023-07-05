@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="24">
+ <tileset firstgid="1" source="../tsx/TilesetInteriorFloor.tsx"/>
+ <tileset firstgid="375" source="../tsx/TilesetFloor.tsx"/>
+ <tileset firstgid="947" source="../tsx/TilesetFloorDetail.tsx"/>
+ <tileset firstgid="1027" source="../tsx/Objects.tsx"/>
+ <layer id="1" name="Ground" width="20" height="10">
+  <data encoding="csv">
+398,463,398,398,398,398,398,464,399,23,25,397,402,403,463,398,398,398,398,398,
+403,398,402,403,398,398,398,398,399,23,25,397,424,425,398,402,403,398,464,398,
+419,403,424,425,398,464,398,398,399,45,47,397,398,398,398,424,425,398,463,398,
+662,419,420,420,403,398,398,398,424,376,376,425,398,463,398,398,398,398,402,420,
+3221226135,1610613397,1610613397,662,419,403,402,403,464,398,398,398,463,398,398,398,464,402,421,1610613398,
+639,639,641,3221226135,662,397,424,425,398,402,420,403,398,398,402,420,420,421,1610613398,2684355223,
+639,620,639,639,661,419,420,420,420,421,489,419,420,420,421,1610613398,1610613397,1610613397,2684355223,620,
+639,598,639,639,3221226135,1610613397,1610613397,1610613397,1610613397,1610613397,1610613397,1610613397,1610613397,1610613397,1610613397,2684355223,639,642,598,639,
+639,642,639,639,639,620,639,639,639,639,639,641,639,620,639,639,598,620,639,639,
+639,639,639,642,639,639,639,642,639,639,639,639,639,639,639,620,639,639,639,642
+</data>
+ </layer>
+ <layer id="2" name="plants and rocks" width="20" height="10">
+  <data encoding="csv">
+0,0,0,0,0,951,0,0,0,0,0,0,0,0,0,0,0,947,0,0,
+0,951,0,950,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,949,0,0,0,0,
+0,0,0,0,0,0,0,950,0,0,0,0,0,0,0,0,0,0,0,0,
+982,0,0,0,0,0,0,0,0,0,0,0,0,950,0,0,0,0,0,0,
+0,984,0,0,0,0,0,0,0,0,0,0,0,0,0,0,953,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,956,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,984,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,986,0,0,0,0,0,0,982,0,0,0,0,985,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="1" name="Tree" type="Vegetation" gid="1036" x="1125.77" y="496.394" width="128" height="116"/>
+  <object id="2" name="Tree" type="Vegetation" gid="1036" x="980.377" y="558.546" width="128" height="116"/>
+  <object id="3" name="Tree" type="Vegetation" gid="1036" x="31.4478" y="495.284" width="128" height="116"/>
+  <object id="4" name="tree_stump" type="Vegetation" gid="1044" x="168.884" y="610.456" width="64" height="60"/>
+  <object id="5" name="tree_stump" type="Vegetation" gid="1044" x="196.631" y="635.983" width="64" height="60"/>
+  <object id="6" name="tree_stump" type="Vegetation" gid="1044" x="1120.03" y="532.766" width="64" height="60"/>
+  <object id="7" name="tree_stump" type="Vegetation" gid="1044" x="1090.07" y="189.82" width="64" height="60"/>
+  <object id="8" name="tree_stump" type="Vegetation" gid="1044" x="219.938" y="196.479" width="64" height="60"/>
+  <object id="9" name="apple" type="Basket" gid="1029" x="798.174" y="77.5042" width="64" height="64"/>
+  <object id="10" name="fish" type="Basket" gid="1038" x="992.623" y="135.656" width="64" height="64"/>
+  <object id="11" name="tea" type="Basket" gid="1039" x="131.149" y="121.899" width="64" height="64"/>
+  <object id="12" name="tea" type="Basket" gid="1039" x="166.665" y="142.986" width="64" height="64"/>
+  <object id="13" name="bread" type="Basket" gid="1041" x="430.811" y="330.552" width="64" height="64"/>
+  <object id="14" name="bread" type="Basket" gid="1041" x="396.405" y="357.189" width="64" height="64"/>
+  <object id="15" name="sapling" type="Vegetation" gid="1043" x="745.95" y="609.476" width="56" height="60"/>
+  <object id="16" name="up" type="Door" x="590" y="0" width="100" height="16"/>
+  <object id="17" name="right" type="Door" x="1264" y="192" width="16" height="128"/>
+  <object id="18" name="squid" type="Spawner" x="126.667" y="573.333">
+   <point/>
+  </object>
+  <object id="19" name="bamboo" type="Spawner" x="922.667" y="566.667">
+   <point/>
+  </object>
+  <object id="20" name="squid" type="Spawner" x="214.667" y="305.333">
+   <point/>
+  </object>
+  <object id="21" name="bamboo" type="Spawner" x="664" y="502.667">
+   <point/>
+  </object>
+  <object id="22" gid="1045" x="513.333" y="629.333" width="64" height="56"/>
+  <object id="23" gid="1045" x="252" y="425.333" width="64" height="56"/>
+ </objectgroup>
+</map>

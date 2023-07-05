@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="69">
+ <tileset firstgid="1" source="../tsx/TilesetInteriorFloor.tsx"/>
+ <tileset firstgid="375" source="../tsx/TilesetFloor.tsx"/>
+ <tileset firstgid="947" source="../tsx/Objects.tsx"/>
+ <tileset firstgid="967" source="../tsx/TilesetFloorDetail.tsx"/>
+ <tileset firstgid="1047" source="../tsx/TilesetNature.tsx"/>
+ <tileset firstgid="1383" source="../tsx/TilesetWater.tsx"/>
+ <layer id="1" name="Ground" width="20" height="10">
+  <data encoding="csv">
+398,398,398,398,398,463,398,398,399,23,25,397,398,398,398,398,398,398,398,398,
+398,464,398,398,398,398,398,398,399,23,25,397,464,398,463,398,398,398,398,398,
+398,463,398,398,398,398,402,1610612739,2,51,50,2,3,403,398,398,398,398,463,398,
+420,420,420,420,420,420,421,23,1383,1384,1384,1385,25,419,420,420,420,420,420,420,
+2,2,2,2,2,2,2,51,1411,1412,1412,1413,50,2,2,2,2,2,2,2,
+46,46,46,46,46,46,46,29,1411,1412,1412,1413,28,46,46,46,46,46,46,46,
+376,376,376,376,376,376,377,23,1439,1440,1440,1441,25,375,376,376,376,376,376,376,
+398,398,398,398,463,464,424,3221225475,46,29,28,46,2684354563,425,398,402,403,398,398,398,
+398,398,398,398,398,398,398,398,399,23,25,397,464,398,398,424,425,463,398,398,
+398,398,398,398,398,398,398,398,399,23,25,397,398,398,463,398,398,398,464,398
+</data>
+ </layer>
+ <layer id="3" name="plants and rocks" width="20" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,969,0,0,976,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,969,976,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,976,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,969,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,970,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,976,0,0,0,0,969,
+0,0,999,0,0,976,0,969,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Dark_Tree" type="Vegetation" gid="955" x="1088.64" y="125.338" width="124" height="123"/>
+  <object id="2" name="Dark_Tree" type="Vegetation" gid="955" x="963.08" y="136.869" width="124" height="123"/>
+  <object id="3" name="Dark_Tree" type="Vegetation" gid="955" x="1009.95" y="199.217" width="124" height="123"/>
+  <object id="4" name="Dark_Tree" type="Vegetation" gid="955" x="829.011" y="105.95" width="124" height="123"/>
+  <object id="5" name="Dark_Tree" type="Vegetation" gid="955" x="1160.01" y="167.224" width="124" height="123"/>
+  <object id="6" name="Dark_Tree" type="Vegetation" gid="955" x="1135.53" y="224.765" width="124" height="123"/>
+  <object id="7" name="Dark_Tree" type="Vegetation" gid="955" x="865.254" y="207.387" width="124" height="123"/>
+  <object id="9" name="Rock" type="Vegetation" gid="953" x="395.002" y="670.145" width="115" height="109"/>
+  <object id="10" name="Rock" type="Vegetation" gid="953" x="276.963" y="622.161" width="115" height="109"/>
+  <object id="11" name="Rock" type="Vegetation" gid="953" x="-5.17814" y="571.299" width="115" height="109"/>
+  <object id="12" name="Rock" type="Vegetation" gid="953" x="196.351" y="590.493" width="115" height="109"/>
+  <object id="13" name="Rock" type="Vegetation" gid="953" x="28.4101" y="621.202" width="115" height="109"/>
+  <object id="14" name="Rock" type="Vegetation" gid="953" x="115.74" y="643.274" width="115" height="109"/>
+  <object id="15" name="Rock_small" type="Vegetation" gid="954" x="355.745" y="648.104" width="63" height="64"/>
+  <object id="16" name="Rock_small" type="Vegetation" gid="954" x="205.077" y="629.871" width="63" height="64"/>
+  <object id="17" name="Rock_small" type="Vegetation" gid="954" x="255.94" y="641.387" width="63" height="64"/>
+  <object id="18" name="Rock_small" type="Vegetation" gid="954" x="115.829" y="560.775" width="63" height="64"/>
+  <object id="19" name="Rock_small" type="Vegetation" gid="954" x="358.624" y="566.533" width="63" height="64"/>
+  <object id="20" name="Rock_small" type="Vegetation" gid="954" x="487.219" y="645.225" width="63" height="64"/>
+  <object id="21" name="Rock_small" type="Vegetation" gid="954" x="30.4185" y="493.598" width="63" height="64"/>
+  <object id="22" name="Rock_small" type="Vegetation" gid="954" x="157.094" y="568.452" width="63" height="64"/>
+  <object id="23" name="Rock_small" type="Vegetation" gid="954" x="275.133" y="541.582" width="63" height="64"/>
+  <object id="24" name="Rock_small" type="Vegetation" gid="954" x="128.304" y="487.84" width="63" height="64"/>
+  <object id="25" name="Sunflower" type="Vegetation" gid="962" x="317.398" y="210.417" width="60" height="60"/>
+  <object id="26" name="Sunflower" type="Vegetation" gid="962" x="1005.85" y="586.258" width="39.8471" height="39.8471"/>
+  <object id="38" name="Sunflower" type="Vegetation" gid="962" x="978.29" y="597.774" width="39.8471" height="39.8471"/>
+  <object id="39" name="Sunflower" type="Vegetation" gid="962" x="1026.6" y="608.742" width="39.8471" height="39.8471"/>
+  <object id="27" name="Sunflower" type="Vegetation" gid="962" x="402.809" y="562.614" width="60" height="60"/>
+  <object id="28" name="Sunflower" type="Vegetation" gid="962" x="987.889" y="229.433" width="60" height="60"/>
+  <object id="29" name="Sunflower" type="Vegetation" gid="962" x="88.0387" y="505.034" width="60" height="60"/>
+  <object id="30" name="Tree" type="Vegetation" gid="956" x="61.4588" y="120.38" width="128" height="116"/>
+  <object id="31" name="Tree" type="Vegetation" gid="956" x="-1.9697" y="162.276" width="128" height="116"/>
+  <object id="32" name="Tree" type="Vegetation" gid="956" x="403.356" y="105.024" width="128" height="116"/>
+  <object id="33" name="Tree_Stump" type="Vegetation" gid="964" x="212.459" y="98.0173" width="64" height="60"/>
+  <object id="34" name="Tree_Stump" type="Vegetation" gid="964" x="188.502" y="120.631" width="64" height="60"/>
+  <object id="35" name="Tree_Stump" type="Vegetation" gid="964" x="277.972" y="75.1042" width="64" height="60"/>
+  <object id="36" name="Tree_Stump" type="Vegetation" gid="964" x="332.215" y="127.886" width="64" height="60"/>
+  <object id="37" name="Tree_Stump" type="Vegetation" gid="964" x="362.331" y="154.896" width="64" height="60"/>
+  <object id="40" name="Dark_Tree" type="Vegetation" gid="955" x="908.189" y="551.637" width="124" height="123"/>
+  <object id="41" name="Dark_Tree" type="Vegetation" gid="955" x="832.575" y="628.203" width="124" height="123"/>
+  <object id="42" name="Dark_Tree" type="Vegetation" gid="955" x="1036.82" y="551.429" width="124" height="123"/>
+  <object id="43" name="Dark_Tree" type="Vegetation" gid="955" x="1156.46" y="604.372" width="124" height="123"/>
+  <object id="45" name="Sapling" type="Vegetation" gid="963" x="1093.76" y="619.814" width="56" height="60"/>
+  <object id="46" name="Sapling" type="Vegetation" gid="963" x="1161.98" y="482.002" width="56" height="60"/>
+  <object id="47" name="Sapling" type="Vegetation" gid="963" x="808.464" y="150.958" width="56" height="60"/>
+  <object id="48" name="Sapling" type="Vegetation" gid="963" x="70.8454" y="217.135" width="56" height="60"/>
+  <object id="49" name="Sapling" type="Vegetation" gid="963" x="232.069" y="489.679" width="56" height="60"/>
+  <object id="52" name="Leaves" type="Vegetation" gid="1225" x="643.604" y="364.044" width="39.0487" height="39.0487"/>
+  <object id="53" name="Rock_small" type="Vegetation" gid="1261" x="630.168" y="342.931" width="64" height="64"/>
+  <object id="54" name="Rock_small" type="Vegetation" gid="1261" x="620.572" y="356.366" width="36.1697" height="36.1697"/>
+  <object id="59" name="down" type="Door" x="576" y="624" width="128" height="16"/>
+  <object id="62" name="left" type="Door" x="0" y="256" width="16" height="128"/>
+  <object id="64" name="bamboo" type="Spawner" x="979" y="371">
+   <point/>
+  </object>
+  <object id="65" name="bamboo" type="Spawner" x="701" y="73">
+   <point/>
+  </object>
+  <object id="66" gid="965" x="187" y="215" width="64" height="56"/>
+  <object id="67" gid="965" x="358" y="479" width="64" height="56"/>
+  <object id="68" name="right" type="Door" x="1264" y="256" width="16" height="128"/>
+ </objectgroup>
+</map>
