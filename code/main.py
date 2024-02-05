@@ -7,9 +7,11 @@ pygame.init()
 
 
 def draw_screen(player, world):
+    #draw background
     player.current_room.floor_group.draw(WIN)
-    if player.location == 'under':
+    if player.location == 'under': # draw player achter object
         WIN.blit(player.obj, (player.rect.x, player.rect.y))#player
+    #draw Objects
     player.current_room.sprite_group.draw(WIN)
     WIN.blit(BACKGROUND_WALL, (0, HEIGHT-(TILESIZE*2)))
     world.ui.display(player)
@@ -22,9 +24,14 @@ def draw_screen(player, world):
 
     pygame.display.update()
 
-def draw_dead_screen():
+def draw_dead_screen(player):
     text_surface = DEAD_FONT.render('GAME OVER', False, BLACK)
     text_rect = text_surface.get_rect(center = (WIDTH//2, HEIGHT//2))
+
+    exp_surface = DEAD_FONT.render('Score: '+ str(player.exp), False, BLACK)
+    exp_rect = exp_surface.get_rect(center = (WIDTH//2, HEIGHT//2 - 100))
+    
+    WIN.blit(exp_surface, exp_rect)
     WIN.blit(text_surface, text_rect)
     pygame.display.update()
 
@@ -58,7 +65,7 @@ def main():
         
         
         if world.player.health < 0:
-            draw_dead_screen()
+            draw_dead_screen(world.player)
         else:
             world.player.update()
             draw_screen(world.player, world)

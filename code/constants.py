@@ -12,7 +12,6 @@ FPS = 60
 # ui 
 BAR_HEIGHT = 20
 HEALTH_BAR_WIDTH = 200
-ENERGY_BAR_WIDTH = 140
 ITEM_BOX_SIZE = 80
 UI_FONT = (os.path.join('AdventureGame', 'grafics', 'font', 'joystix.ttf'))
 UI_FONT_SIZE = 18
@@ -20,10 +19,7 @@ DEAD_FONT = pygame.font.Font(UI_FONT, 60)
 
 
 #images
-LIFE_IMG = pygame.image.load(os.path.join('AdventureGame', 'grafics', 'characters', 'heart.png'))
-DEAD_IMG = pygame.image.load(os.path.join('AdventureGame', 'grafics', 'characters', 'heart-black.png'))
 BACKGROUND_WALL = pygame.image.load(os.path.join('AdventureGame', 'grafics', 'floors', 'stats_wall.png'))
-# INV_IMG = pygame.image.load(os.path.join('AdventureGame', 'grafics', 'characters', 'invbox.png'))
 
 WEAPON_DATA = {
 	'sword': {'cooldown': 100, 'damage': 15,'graphic':os.path.join('AdventureGame', 'grafics', 'weapons', 'sword', 'full.png')},
@@ -53,12 +49,9 @@ monster_data = {
 
 #colors
 BLACK = (0, 0, 0)
-WATER_COLOR = '#71ddee'
 UI_BG_COLOR = '#222222'
 UI_BORDER_COLOR = '#111111'
 TEXT_COLOR = '#EEEEEE'
 
 # ui colors
 HEALTH_COLOR = 'red'
-ENERGY_COLOR = 'green'
-UI_BORDER_COLOR_ACTIVE = 'gold'

@@ -7,9 +7,6 @@ from constants import *
 class World():
     def __init__(self):
         #get tmx files for maps
-        
-
-
         self.map = []
         
         self.ui = UI()

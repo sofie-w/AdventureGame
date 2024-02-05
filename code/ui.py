@@ -42,11 +42,10 @@ class UI:
         pygame.draw.rect(self.display_surface, UI_BORDER_COLOR, bg_rect, 3)
 
     def show_exp(self, exp):
-        #get text en rect
         text_surface = self.font.render(str(int(exp)),False, TEXT_COLOR)
-        x = 40
+        x = 20
         y = self.display_surface.get_size()[1] - TILESIZE + (text_surface.get_height()/2) + 10
-        text_rect = text_surface.get_rect(bottomright = (x,y))
+        text_rect = text_surface.get_rect(bottomleft = (x,y))
 
         #draw exp stats
         self.display_surface.blit(text_surface, text_rect)

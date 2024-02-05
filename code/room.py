@@ -2,7 +2,7 @@ import pygame
 from pytmx.util_pygame import load_pygame
 pygame.init()
 
-from constants import TILESIZE, WIN
+from constants import TILESIZE
 from tile import Tile
 from enemy import Enemy
 

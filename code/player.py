@@ -153,7 +153,6 @@ class Player():
         for door in self.current_room.doors:
             door_rect = pygame.Rect(door.x, door.y, door.width, door.height)
             if self.rect.colliderect(door_rect):
-                print(self.current_room.y, self.current_room.x)
                 if door.name == 'left':
                     next_room = self.world.map[self.current_room.y][self.current_room.x-1]
                     self.hitbox.x = WIDTH - PLAYER_WIDTH - (TILESIZE//2)
@@ -240,9 +239,8 @@ class Player():
         if self.inv.count(self.food) > 0:
             self.inv.remove(self.food)
             self.health += list(FOOD_DATA.values())[self.food_index]['health']
-            if self.health > 100:
-                self.health = 100
-
+            if self.health > 200:
+                self.health = 200
 
     def cooldowns(self):
         current_time = pygame.time.get_ticks()
@@ -284,14 +282,14 @@ class Player():
             if direction == 'horizontal':
                 self.hitbox.x += self.velX
                 for obj in self.current_room.sprite_group:
-                    if obj.type in ('Building', 'Decor'):
+                    if obj.type in ('Building', 'Decor', 'Basket', 'Vegetation'):
                         if obj.hitbox.colliderect(self.hitbox):
                             self.hitbox.x -= self.velX
 
             if direction == 'vertical':
                 self.hitbox.y += self.velY
                 for obj in self.current_room.sprite_group:
-                    if obj.type in ('Building', 'Decor', 'Vegetation'):
+                    if obj.type in ('Building', 'Decor', 'Vegetation', 'Basket'):
                         if obj.hitbox.colliderect(self.hitbox):
                             self.hitbox.y -= self.velY
 
